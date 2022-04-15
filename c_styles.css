@@ -1,0 +1,83 @@
+/* Global Layout Set-up */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background: url("images/pc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Link Styles */
+  
+  a {
+    text-decoration: none;
+    color: #999;
+  }
+  a:hover {
+    color: #ff3333;
+  }
+  
+  /* Section Styles */
+  
+  .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+ .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all 0.5s;
+  }
+  .nav a:hover {
+    color: white;
+  }
+  
+  header {
+    color: white;
+    font-size: 80px;
+    padding-top: 50px; 
+    background-repeat: no-repeat;
+  }
+
+ article > h1{
+     color: black;
+     font-size: 25px;    
+ }
+
+ article > address{
+     color: white;
+     font-style: italic;
+ }
+
+ article > p {
+     color: black;
+     font-size: 18px;
+ }
+  
+ 
